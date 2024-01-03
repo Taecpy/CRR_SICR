@@ -1,0 +1,4 @@
+SELECT count(*)
+FROM risk_loan_account_hist
+WHERE AS_OF_DATE > date'2022-12-31'
+GROUP by AS_OF_DATE 
